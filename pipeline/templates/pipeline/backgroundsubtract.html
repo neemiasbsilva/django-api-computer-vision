@@ -1,0 +1,36 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css">
+    <link rel="stylesheet" href="{% static 'css/pipeline.css' %}">
+
+    <title>Background Subtract</title>
+</head>
+<body>
+
+    <div class="page-header">
+    <h1>Mvisia Challenge -- Background Subtract</h1>
+    </div>
+
+    <form method="post" enctype="multipart/form-data">
+        {% csrf_token %}
+        {{ form.as_p }}
+        <button type="submit">Subtract Image</button>
+    </form>
+
+    {% if post %}
+    <div class="container">
+        <h1>Result of Background Subtract</h1>
+        <img src="{{ post.oimg.url }}">
+        <p>File uploaded at: <a href="{{ post.oimg.url }}">{{ post.oimg }}</a></p>
+    {% endif %}
+    </div>
+
+    <div class="container">
+        <h1><a href="{% url 'first_view' %}"><b>Return to Home</b></a></h1>
+    </div>
+</body>
+</html>

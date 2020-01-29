@@ -1,24 +1,24 @@
 {% load static %}
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <meta charset="UTF-8">
     <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
     <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css">
     <link rel="stylesheet" href="{% static 'css/pipeline.css' %}">
-    <meta charset="UTF-8">
-    <title>Mvisial Challenger</title>
+
+    <title>Webcam</title>
 </head>
 <body>
+
     <div class="page-header">
-    <h1>Mvisia Challenge</h1>
+    <h1>Mvisia Challenge -- WebCam</h1>
     </div>
 
-    <div class="container">
-        <h1><a href="{% url 'uimage' %}"><b>Computer Vision Techniques</b></a></h1>
-
-        <h1><a href="{% url 'webcam' %}"><b>Web Camera</b></a></h1>
-
+     <div class="container">
+        <h1><a href="{% url 'capture' %} "><b>Capture Image</b></a></h1>
+        <h1><a href="{% url 'stream' %} "><b>Streaming</b></a></h1>
+        <h1><a href="{% url 'first_view' %}"><b>Return to Home</b></a></h1>
     </div>
 </body>
 </html>

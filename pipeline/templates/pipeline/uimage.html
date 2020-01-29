@@ -1,15 +1,17 @@
+{% load static %}
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
     <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css">
+    <link rel="stylesheet" href="{% static 'css/pipeline.css' %}">
 
     <title>Upload Image</title>
 </head>
 <body>
     <h1>Upload Image</h1>
-
+    <!--
     <form method="POST" class="post-form" enctype="multipart/form-data">
         {% csrf_token %}
         {{ form.as_p }}
@@ -21,6 +23,18 @@
         {% endif %}
 
         <p><a href="{% url 'first_view' %}">Return to home</a></p>
-    </form>
+    </form>-->
+
+    <div class="page-header">
+    <h1>Mvisia Challenge</h1>
+    </div>
+
+     <div class="container">
+        <h1><a href="{% url 'dface' %}"><b>Detect Face</b></a></h1>
+        <h1><a href="{% url 'crop' %}"><b>Crop Image</b></a></h1>
+        <h1><a href="{% url 'backgroundsubtract' %}"><b>Background Subtract</b></a></h1>
+        <h1><a href="{% url 'binarize' %}"><b>Binarize</b></a></h1>
+        <h1><a href="{% url 'first_view' %}"><b>Return to Home</b></a></h1>
+    </div>
 </body>
 </html>

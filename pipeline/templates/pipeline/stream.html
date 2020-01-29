@@ -1,0 +1,37 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css">
+    <link rel="stylesheet" href="{% static 'css/pipeline.css' %}">
+
+    <title>Stream</title>
+</head>
+<body>
+
+<div class="page-header">
+    <h1>Mvisia Challenge -- Stream</h1>
+    </div>
+
+     <div class="container">
+        <h1>Please, when webcan has been open press the following key:</h1>
+        <ul>
+            <li><b>q: to close the webcam window.</b></li>
+        </ul>
+
+
+    </div>
+
+    <form method="post" enctype="multipart/form-data">
+        {% csrf_token %}
+        {{ form.as_p }}
+        <button type="submit">Stream Video</button>
+    </form>
+
+    <div class="container">
+        <h1><a href="{% url 'first_view' %}"><b>Return to Home</b></a></h1>
+    </div>
+</body>
+</html>
