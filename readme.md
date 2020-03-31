@@ -23,6 +23,11 @@ This application was developed as coding interview of the company **MVISIA**. Th
   ```
     $ pip install opencv-python
   ```
-#
+## Acknowledgment
 
+I would like to thank the [MVISIA company](https://www.mvisia.com.br) for the opportunity offered, as
+implementation of this application turned out to be an interesting challenge and
+contribution to improving my skills.
+
+#
 <p align="center"><b>Sincerely:</b> <a href="https://github.com/neemiasbsilva">Neemias B. Silva</a></p>
