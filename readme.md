@@ -15,6 +15,10 @@ This application was developed as coding interview of the company **MVISIA**. Th
   ```
     $ python -m pip install -U matplotlib
   ```
+  * Django
+  ```
+    $ python -m pip install Django
+  ```
 #
 
 <p align="center"><b>Sincerely:</b> <a href="https://github.com/neemiasbsilva">Neemias B. Silva</a></p>
