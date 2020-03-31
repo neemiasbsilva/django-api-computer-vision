@@ -29,9 +29,10 @@ This application was developed as coding interview of the company **MVISIA**. Th
 
 
 ## Run API
-    * OpenCV
+    
+* OpenCV
     ```
-        $ python manage.py runserver 127.0.0.1:8000
+    $ python manage.py runserver 127.0.0.1:8000
     ```
 
 ## Acknowledgment
