@@ -19,6 +19,10 @@ This application was developed as coding interview of the company **MVISIA**. Th
   ```
     $ python -m pip install Django
   ```
+  * OpenCV
+  ```
+    $ pip install opencv-python
+  ```
 #
 
 <p align="center"><b>Sincerely:</b> <a href="https://github.com/neemiasbsilva">Neemias B. Silva</a></p>
