@@ -26,6 +26,14 @@ This application was developed as coding interview of the company **MVISIA**. Th
   ```
     $ pip install opencv-python
   ```
+
+
+## Run API
+    * OpenCV
+    ```
+        $ python manage.py runserver 127.0.0.1:8000
+    ```
+
 ## Acknowledgment
 
 I would like to thank the [MVISIA company](https://www.mvisia.com.br) for the opportunity offered, as
