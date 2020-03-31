@@ -2,7 +2,7 @@
 
 [![Build Status](https://travis-ci.org/ImaginaryLandscape/django-version-viewer.svg?branch=master)](https://travis-ci.org/ImaginaryLandscape/django-version-viewer)
 
-## About this API
+## About the Coding Interview
 
 <p align="center"><img src="screen-main-API.png" width="85%" heigh="85%"</p>
 <h6 align="center">Screen main API.</h6>
@@ -11,7 +11,7 @@ This application was developed as coding interview of the company **MVISIA**. Th
 
 **Note**: if you know **classic computer vision**, **django framework**, and **basic computer newtworks** you can undertand this application. Otherwise, acquire these skills.
 
-## Intall Packages
+## Install Packages
  * Create of virtual environments (venv) in macOS or Linux.
   ```
    $ python3 -m pip install --user virtualenv
