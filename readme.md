@@ -1,6 +1,6 @@
 # Creation of API Web to Use Computer Vision Techniques Classic.
 
-[![Build Status](https://travis-ci.org/ImaginaryLandscape/django-version-viewer.svg?branch=master)](https://travis-ci.org/ImaginaryLandscape/django-version-viewer)
+[![Build Status](https://travis-ci.org/neemiasbsilva/django-api-computer-vision.svg?branch=master)](https://travis-ci.org/neemiasbsilva/django-api-computer-vision)
 
 ## About the Coding Interview
 
