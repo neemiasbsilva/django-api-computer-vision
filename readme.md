@@ -1,6 +1,6 @@
 # Creation of API Web to Use Computer Vision Techniques Classic.
 [![Build Status](https://img.shields.io/badge/Django-v3.1-blue)](https://www.djangoproject.com)
-
+[![Build Status](https://img.shields.io/badge/python-3.6%20%7C%203.7%20%7C%203.8-blue)](https://www.python.org)
 
 ## About the Coding Interview
 
